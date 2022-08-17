@@ -1,0 +1,57 @@
+[05-Jan-2022 10:02:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[10-Jan-2022 00:51:09 America/Phoenix] PHP Fatal error:  Cannot use FI\Modules\MailQueue\Models\MailQueue as MailQueue because the name is already in use in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Quotes/Controllers/QuoteMailController.php on line 18
+[10-Jan-2022 00:52:10 America/Phoenix] PHP Fatal error:  Cannot use FI\Modules\MailQueue\Models\MailQueue as MailQueue because the name is already in use in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Quotes/Controllers/QuoteMailController.php on line 18
+[10-Jan-2022 00:59:23 America/Phoenix] PHP Fatal error:  Constant expression contains invalid operations in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Email/Email.php on line 23
+[10-Jan-2022 00:59:39 America/Phoenix] PHP Fatal error:  Constant expression contains invalid operations in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Email/Email.php on line 23
+[10-Jan-2022 01:01:08 America/Phoenix] PHP Fatal error:  Constant expression contains invalid operations in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Email/Email.php on line 34
+[10-Jan-2022 01:06:13 America/Phoenix] PHP Fatal error:  Constant expression contains invalid operations in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Email/Email.php on line 34
+[10-Jan-2022 01:27:23 America/Phoenix] PHP Fatal error:  Constant expression contains invalid operations in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Email/Email.php on line 34
+[10-Jan-2022 01:28:35 America/Phoenix] PHP Fatal error:  Constant expression contains invalid operations in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Email/Email.php on line 34
+[11-Jan-2022 03:35:57 America/Phoenix] PHP Warning:  Uncaught ErrorException: require_once(/home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/vendor/dompdf/dompdf/lib/class.pdf.php): failed to open stream: No such file or directory in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php:28
+Stack trace:
+#0 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home1/a5inepro...', 28, Array)
+#1 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(28): require_once()
+#2 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(444): include('/home1/a5inepro...')
+#3 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home1/a5inepro...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Dompdf\\Adapter\\...')
+#5 /home1/a5ineprojects9/p in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 28
+[11-Jan-2022 03:35:57 America/Phoenix] PHP Fatal error:  main(): Failed opening required '/home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/vendor/dompdf/dompdf/lib/class.pdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 28
+[11-Jan-2022 03:40:38 America/Phoenix] PHP Fatal error:  Cannot declare class Dompdf\Adapter\CPDF because the name is already in use in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 46
+[11-Jan-2022 23:38:47 America/Phoenix] PHP Fatal error:  Cannot use Dompdf as Dompdf because the name is already in use in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 23
+[11-Jan-2022 23:41:04 America/Phoenix] PHP Warning:  Uncaught ErrorException: require_once(../../lib/Cpdf.php): failed to open stream: No such file or directory in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php:23
+Stack trace:
+#0 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(23): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home1/a5inepro...', 23, Array)
+#1 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(23): require_once()
+#2 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(444): include('/home1/a5inepro...')
+#3 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home1/a5inepro...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Dompdf\\Adapter\\...')
+#5 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/CanvasFactory.php(57): spl_autoload_call('Dompdf\\A in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 23
+[11-Jan-2022 23:41:04 America/Phoenix] PHP Fatal error:  main(): Failed opening required '../../lib/Cpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 23
+[11-Jan-2022 23:42:36 America/Phoenix] PHP Warning:  Uncaught ErrorException: require_once(/home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/../lib/Cpdf.php): failed to open stream: No such file or directory in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php:23
+Stack trace:
+#0 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(23): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home1/a5inepro...', 23, Array)
+#1 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(23): require_once()
+#2 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(444): include('/home1/a5inepro...')
+#3 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home1/a5inepro...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Dompdf\\Adapter\\...')
+#5 /home1/a5ineprojects9/public_html/FusionInvoic in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 23
+[11-Jan-2022 23:42:36 America/Phoenix] PHP Fatal error:  main(): Failed opening required '/home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/../lib/Cpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 23
+[11-Jan-2022 23:43:43 America/Phoenix] PHP Warning:  Uncaught ErrorException: require(/home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/../lib/Cpdf.php): failed to open stream: No such file or directory in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php:24
+Stack trace:
+#0 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(24): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home1/...', '/home1/a5inepro...', 24, Array)
+#1 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php(24): require()
+#2 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(444): include('/home1/a5inepro...')
+#3 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home1/a5inepro...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Dompdf\\Adapter\\...')
+#5 /home1/a5ineprojects9/public_html/FusionInvoice/vendor/d in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 24
+[11-Jan-2022 23:43:43 America/Phoenix] PHP Fatal error:  main(): Failed opening required '/home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/../lib/Cpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/a5ineprojects9/public_html/FusionInvoice/vendor/dompdf/dompdf/src/Adapter/CPDF.php on line 24
+[17-Jan-2022 23:42:42 America/Phoenix] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Quotes/Controllers/QuoteMailController.php on line 45
+[17-Jan-2022 23:43:10 America/Phoenix] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Quotes/Controllers/QuoteMailController.php on line 45
+[18-Jan-2022 00:07:49 America/Phoenix] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Quotes/Controllers/QuoteMailController.php on line 45
+[01-Feb-2022 02:07:09 America/Phoenix] PHP Fatal error:  Cannot use FI\Modules\Inventory\Models\Inventory as Inventory because the name is already in use in /home1/a5ineprojects9/public_html/FusionInvoice/app/Modules/Quotes/Controllers/QuoteEditController.php on line 30

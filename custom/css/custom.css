@@ -1,0 +1,19 @@
+.wrapper {
+	overflow: visible !important;
+}
+
+section.content-header {
+	position:sticky;
+	top:45px;
+	z-index: 150;
+	background: white !important;
+}
+
+.box-header {
+	background: white;
+	position: sticky;
+	top:95px;
+	z-index: 100;
+	border-bottom: 1px solid #888;
+}
+

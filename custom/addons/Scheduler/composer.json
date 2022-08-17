@@ -1,0 +1,13 @@
+{
+    "name": "Scheduler",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dave Albright",
+            "email": "cytech@cytech-eng.com"
+        }
+    ],
+    "require": {
+        "simshaun/recurr": "^3.0"
+    }
+}

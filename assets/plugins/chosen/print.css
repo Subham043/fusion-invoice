@@ -1,0 +1,14 @@
+#print-section, #pagination-nav{
+    display:none;
+    visibility:none;
+}
+
+.print-hide{
+    visibility:hidden;
+}
+
+#pagination-nav{
+display:none;
+    visibility:none;
+
+}
